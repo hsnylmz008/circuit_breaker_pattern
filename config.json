@@ -1,0 +1,14 @@
+{
+    "server": {
+        "port": 3000,
+        "host": "0.0.0.0"
+    },
+    "circuitBreaker": {
+        "name": "API-ServiceBreaker",
+        "maxRequests": 3,
+        "interval": 10,
+        "timeout": 30,
+        "failureRatio": 0.6,
+        "minimumRequests": 10
+    }
+} 
